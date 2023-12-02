@@ -33,3 +33,4 @@ C:\Users\kened\OneDrive\Documentos\C#\HPlusSport.API\HPlusSport.API\obj\Debug\ne
 C:\Users\kened\OneDrive\Documentos\C#\HPlusSport.API\HPlusSport.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\kened\OneDrive\Documentos\C#\HPlusSport.API\HPlusSport.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\kened\OneDrive\Documentos\C#\HPlusSport.API\HPlusSport.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\kened\OneDrive\Documentos\C#\HPlusSport.API\HPlusSport.API\obj\Debug\net8.0\HPlusSport.API.sourcelink.json

@@ -7,46 +7,46 @@ namespace HPlusSport.API.Models
         public static void Seed(this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                    new Category { Id = 1, Name = "Ação" },
-                    new Category { Id = 2, Name = "Aventura" },
-                    new Category { Id = 3, Name = "Estratégia" },
-                    new Category { Id = 4, Name = "RPG" },
-                    new Category { Id = 5, Name = "Esportes" }
-                );
+                new Category { Id = 1, Name = "Active Wear - Men" },
+                new Category { Id = 2, Name = "Active Wear - Women" },
+                new Category { Id = 3, Name = "Mineral Water" },
+                new Category { Id = 4, Name = "Publications" },
+                new Category { Id = 5, Name = "Supplements" });
 
             modelBuilder.Entity<Product>().HasData(
-                    new Product { Id = 1, CategoryId = 1, Name = "Assassin's Creed: Valhalla", Sku = "ACV-001", Price = 59.99m, IsAvailable = true },
-                    new Product { Id = 2, CategoryId = 2, Name = "The Legend of Zelda: Breath of the Wild", Sku = "LOZ-BOTW-002", Price = 49.99m, IsAvailable = true },
-                    new Product { Id = 3, CategoryId = 3, Name = "Starcraft II", Sku = "SC2-003", Price = 29.99m, IsAvailable = true },
-                    new Product { Id = 4, CategoryId = 4, Name = "The Witcher 3: Wild Hunt", Sku = "TW3-004", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 5, CategoryId = 5, Name = "FIFA 22", Sku = "FIFA22-005", Price = 54.99m, IsAvailable = true },
-                    new Product { Id = 6, CategoryId = 1, Name = "Call of Duty: Warzone", Sku = "CODWZ-006", Price = 0m, IsAvailable = true },
-                    new Product { Id = 7, CategoryId = 2, Name = "Uncharted 4: A Thief's End", Sku = "UC4-007", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 8, CategoryId = 3, Name = "Civilization VI", Sku = "CIV6-008", Price = 44.99m, IsAvailable = true },
-                    new Product { Id = 9, CategoryId = 4, Name = "Final Fantasy XV", Sku = "FFXV-009", Price = 49.99m, IsAvailable = true },
-                    new Product { Id = 10, CategoryId = 5, Name = "NBA 2K22", Sku = "NBA2K22-010", Price = 59.99m, IsAvailable = true },
-                    new Product { Id = 11, CategoryId = 1, Name = "Doom Eternal", Sku = "DOOM-011", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 12, CategoryId = 2, Name = "Red Dead Redemption 2", Sku = "RDR2-012", Price = 49.99m, IsAvailable = true },
-                    new Product { Id = 13, CategoryId = 3, Name = "Age of Empires IV", Sku = "AOE4-013", Price = 54.99m, IsAvailable = true },
-                    new Product { Id = 14, CategoryId = 4, Name = "Persona 5", Sku = "P5-014", Price = 29.99m, IsAvailable = true },
-                    new Product { Id = 15, CategoryId = 5, Name = "Madden NFL 22", Sku = "MADDEN22-015", Price = 49.99m, IsAvailable = true },
-                    new Product { Id = 16, CategoryId = 1, Name = "Borderlands 3", Sku = "BL3-016", Price = 44.99m, IsAvailable = true },
-                    new Product { Id = 17, CategoryId = 2, Name = "Horizon Zero Dawn", Sku = "HZD-017", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 18, CategoryId = 3, Name = "Sid Meier's Civilization V", Sku = "CIV5-018", Price = 29.99m, IsAvailable = true },
-                    new Product { Id = 19, CategoryId = 4, Name = "Kingdom Hearts III", Sku = "KH3-019", Price = 54.99m, IsAvailable = true },
-                    new Product { Id = 20, CategoryId = 5, Name = "Rocket League", Sku = "RL-020", Price = 19.99m, IsAvailable = true },
-                    new Product { Id = 21, CategoryId = 1, Name = "Rainbow Six Siege", Sku = "R6S-021", Price = 29.99m, IsAvailable = true },
-                    new Product { Id = 22, CategoryId = 2, Name = "The Elder Scrolls V: Skyrim", Sku = "TESV-022", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 23, CategoryId = 3, Name = "Total War: Three Kingdoms", Sku = "TWTK-023", Price = 49.99m, IsAvailable = true },
-                    new Product { Id = 24, CategoryId = 4, Name = "Mass Effect: Legendary Edition", Sku = "MELE-024", Price = 59.99m, IsAvailable = true },
-                    new Product { Id = 25, CategoryId = 5, Name = "F1 2021", Sku = "F12021-025", Price = 54.99m, IsAvailable = true },
-                    new Product { Id = 26, CategoryId = 1, Name = "Destiny 2", Sku = "DESTINY2-026", Price = 0m, IsAvailable = true },
-                    new Product { Id = 27, CategoryId = 2, Name = "Genshin Impact", Sku = "GENSHIN-027", Price = 0m, IsAvailable = true },
-                    new Product { Id = 28, CategoryId = 3, Name = "Stellaris", Sku = "STELLARIS-028", Price = 39.99m, IsAvailable = true },
-                    new Product { Id = 29, CategoryId = 4, Name = "Diablo III", Sku = "DIABLO3-029", Price = 29.99m, IsAvailable = true },
-                    new Product { Id = 30, CategoryId = 5, Name = "WWE 2K22", Sku = "WWE2K22-030", Price = 49.99m, IsAvailable = true }
-                );
-
+                new Product { Id = 1, CategoryId = 1, Name = "Grunge Skater Jeans", Sku = "AWMGSJ", Price = 68, IsAvailable = true },
+                new Product { Id = 2, CategoryId = 1, Name = "Polo Shirt", Sku = "AWMPS", Price = 35, IsAvailable = true },
+                new Product { Id = 3, CategoryId = 1, Name = "Skater Graphic T-Shirt", Sku = "AWMSGT", Price = 33, IsAvailable = true },
+                new Product { Id = 4, CategoryId = 1, Name = "Slicker Jacket", Sku = "AWMSJ", Price = 125, IsAvailable = true },
+                new Product { Id = 5, CategoryId = 1, Name = "Thermal Fleece Jacket", Sku = "AWMTFJ", Price = 60, IsAvailable = true },
+                new Product { Id = 6, CategoryId = 1, Name = "Unisex Thermal Vest", Sku = "AWMUTV", Price = 95, IsAvailable = true },
+                new Product { Id = 7, CategoryId = 1, Name = "V-Neck Pullover", Sku = "AWMVNP", Price = 65, IsAvailable = true },
+                new Product { Id = 8, CategoryId = 1, Name = "V-Neck Sweater", Sku = "AWMVNS", Price = 65, IsAvailable = true },
+                new Product { Id = 9, CategoryId = 1, Name = "V-Neck T-Shirt", Sku = "AWMVNT", Price = 17, IsAvailable = true },
+                new Product { Id = 10, CategoryId = 2, Name = "Bamboo Thermal Ski Coat", Sku = "AWWBTSC", Price = 99, IsAvailable = true },
+                new Product { Id = 11, CategoryId = 2, Name = "Cross-Back Training Tank", Sku = "AWWCTT", Price = 0, IsAvailable = false },
+                new Product { Id = 12, CategoryId = 2, Name = "Grunge Skater Jeans", Sku = "AWWGSJ", Price = 68, IsAvailable = true },
+                new Product { Id = 13, CategoryId = 2, Name = "Slicker Jacket", Sku = "AWWSJ", Price = 125, IsAvailable = true },
+                new Product { Id = 14, CategoryId = 2, Name = "Stretchy Dance Pants", Sku = "AWWSDP", Price = 55, IsAvailable = true },
+                new Product { Id = 15, CategoryId = 2, Name = "Ultra-Soft Tank Top", Sku = "AWWUTT", Price = 22, IsAvailable = true },
+                new Product { Id = 16, CategoryId = 2, Name = "Unisex Thermal Vest", Sku = "AWWUTV", Price = 95, IsAvailable = true },
+                new Product { Id = 17, CategoryId = 2, Name = "V-Next T-Shirt", Sku = "AWWVNT", Price = 17, IsAvailable = true },
+                new Product { Id = 18, CategoryId = 3, Name = "Blueberry Mineral Water", Sku = "MWB", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 19, CategoryId = 3, Name = "Lemon-Lime Mineral Water", Sku = "MWLL", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 20, CategoryId = 3, Name = "Orange Mineral Water", Sku = "MWO", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 21, CategoryId = 3, Name = "Peach Mineral Water", Sku = "MWP", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 22, CategoryId = 3, Name = "Raspberry Mineral Water", Sku = "MWR", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 23, CategoryId = 3, Name = "Strawberry Mineral Water", Sku = "MWS", Price = 2.8M, IsAvailable = true },
+                new Product { Id = 24, CategoryId = 4, Name = "In the Kitchen with H+ Sport", Sku = "PITK", Price = 24.99M, IsAvailable = true },
+                new Product { Id = 25, CategoryId = 5, Name = "Calcium 400 IU (150 tablets)", Sku = "SC400", Price = 9.99M, IsAvailable = true },
+                new Product { Id = 26, CategoryId = 5, Name = "Flaxseed Oil 100 mg (90 capsules)", Sku = "SFO100", Price = 12.49M, IsAvailable = true },
+                new Product { Id = 27, CategoryId = 5, Name = "Iron 65 mg (150 caplets)", Sku = "SI65", Price = 13.99M, IsAvailable = true },
+                new Product { Id = 28, CategoryId = 5, Name = "Magnesium 250 mg (100 tablets)", Sku = "SM250", Price = 12.49M, IsAvailable = true },
+                new Product { Id = 29, CategoryId = 5, Name = "Multi-Vitamin (90 capsules)", Sku = "SMV", Price = 9.99M, IsAvailable = true },
+                new Product { Id = 30, CategoryId = 5, Name = "Vitamin A 10,000 IU (125 caplets)", Sku = "SVA", Price = 11.99M, IsAvailable = true },
+                new Product { Id = 31, CategoryId = 5, Name = "Vitamin B-Complex (100 caplets)", Sku = "SVB", Price = 12.99M, IsAvailable = true },
+                new Product { Id = 32, CategoryId = 5, Name = "Vitamin C 1000 mg (100 tablets)", Sku = "SVC", Price = 9.99M, IsAvailable = true },
+                new Product { Id = 33, CategoryId = 5, Name = "Vitamin D3 1000 IU (100 tablets)", Sku = "SVD3", Price = 12.49M, IsAvailable = true });
         }
     }
-    }
+}
